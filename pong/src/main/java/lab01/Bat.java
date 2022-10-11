@@ -16,8 +16,8 @@ public class Bat extends Rectangle2D {
 	private Point2D speed;
 	private double height;
 	private double width;
-	private int topBoundary = 670;
-	private int botBoundary = 30;
+	private int botBoundary = 670;
+	private int topBoundary = 30;
 	private Point2D up = new Point2D (0,7);
 	private Point2D down = new Point2D (0,-7);
 	private Point2D zero = new Point2D (0,0);
@@ -59,38 +59,48 @@ public class Bat extends Rectangle2D {
 	
 	public void move(Ball ball) {
 		if (!World.pause) {
-		position = position.add(speed);
-		rect = new Rectangle (position.getX(),position.getY(),10,150);
-		rect2D = new Rectangle2D (position.getX(),position.getY(),10,150);
-		if (rect2D.intersects(ball.rect2D)) {
-			ball.speedSet();
-		}
-		if (position.getY()+(height/2) < ball.rect2D.getMaxY()) {
-			speed = up;
-		}
-		if (position.getY()+(height/2) > ball.rect2D.getMaxY()) {
-			speed = down;
-		}
-		}
+		    if (speed == up && position.getY() < botBoundary-height) {
+                position = position.add(speed);
+            }
+            if (speed == down && position.getY() > topBoundary) {
+                position = position.add(speed);
+            }
+            rect = new Rectangle (position.getX(),position.getY(),10,150);
+            rect2D = new Rectangle2D (position.getX(),position.getY(),10,150);
+            if (rect2D.intersects(ball.rect2D)) {
+                ball.speedSet();
+            }
+            if (position.getY()+(height/2) < ball.rect2D.getMaxY()) {
+                speed = up;
+            }
+            if (position.getY()+(height/2) > ball.rect2D.getMaxY()) {
+                speed = down;
+            }
+		    }
 	}
 	
 	public void moveP1(Ball ball) {
 		if (!World.pause) {
-		position = position.add(speed);
-		rect = new Rectangle (position.getX(),position.getY(),10,150);
-		rect2D = new Rectangle2D (position.getX(),position.getY(),10,150);
-		if (rect2D.intersects(ball.rect2D)) {
-			ball.speedSet();
-		}
-		if (right) {
-			speed = up;
-		}
-		if (left) {
-			speed = down;
-		}
-		if (!right && !left) {
-			speed = zero;
-		}
+		    if (speed == up && position.getY() < botBoundary-height) {
+		        position = position.add(speed);
+		    }
+		    if (speed == down && position.getY() > topBoundary) {
+		        position = position.add(speed);
+		    }
+		    rect = new Rectangle (position.getX(),position.getY(),10,150);
+		    rect2D = new Rectangle2D (position.getX(),position.getY(),10,150);
+		    if (rect2D.intersects(ball.rect2D)) {
+		        ball.speedSet();
+		    }
+		    if (right) {
+		        speed = up;
+		    }
+		    if (left) {
+			    speed = down;
+		    }
+		    if (!right && !left) {
+		        speed = zero;
+		    }
 		}
 	}
 }
