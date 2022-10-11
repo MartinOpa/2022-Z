@@ -8,8 +8,8 @@ import javafx.scene.text.Font;
 public class Score {
 	static int scoreP1;
 	static int scoreP2;
-	static String playerName1 = "Milk";
-	static String playerName2 = "Mocha";
+	static String playerName1 = "Player 1";
+	static String playerName2 = "Player 2";
 	private double width;
 	private double height;
 
@@ -30,8 +30,8 @@ public class Score {
 		gc.strokeText(Integer.toString(scoreP2), (width/2)+80, (height/2)-80);
 		gc.setStroke(Color.BLACK);
 		gc.setFont(new Font("Bold Comic Sans MS", 25));
-		gc.strokeText(playerName1, width-100, height-8);
-		gc.strokeText(playerName2, 20, height-8);
+		gc.strokeText(playerName2, width-100, height-8);
+		gc.strokeText(playerName1, 20, height-8);
 	}
 	
 	public static void incrementP1() {
@@ -40,6 +40,11 @@ public class Score {
 	
 	public static void incrementP2() {
 		scoreP2 += 1;
+	}
+	
+	public static void resetScore() {
+	    scoreP1 = 0;
+	    scoreP2 = 0;
 	}
 	
 	public static void setPlayerName1(String input) {

@@ -18,8 +18,8 @@ public class Bat extends Rectangle2D {
 	private double width;
 	private int topBoundary = 670;
 	private int botBoundary = 30;
-	private Point2D up = new Point2D (0,6);
-	private Point2D down = new Point2D (0,-6);
+	private Point2D up = new Point2D (0,7);
+	private Point2D down = new Point2D (0,-7);
 	private Point2D zero = new Point2D (0,0);
 	boolean right = false;
 	boolean left = false;
@@ -65,10 +65,10 @@ public class Bat extends Rectangle2D {
 		if (rect2D.intersects(ball.rect2D)) {
 			ball.speedSet();
 		}
-		if (position.getY()+height < ball.rect2D.getMaxY()) {
+		if (position.getY()+(height/2) < ball.rect2D.getMaxY()) {
 			speed = up;
 		}
-		if (position.getY()+height > ball.rect2D.getMaxY()) {
+		if (position.getY()+(height/2) > ball.rect2D.getMaxY()) {
 			speed = down;
 		}
 		}

@@ -1,15 +1,9 @@
 package lab01;
 
-import javafx.event.EventHandler;
 import javafx.geometry.Point2D;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
-import javafx.scene.image.Image;
 import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
-import javafx.scene.input.KeyEvent;
-import javafx.event.EventHandler;
-import javafx.scene.Scene;
 
 public class World extends App {
 	//private static final Image BACKGROUND;
@@ -18,7 +12,6 @@ public class World extends App {
 	private Ball ball;
 	private Bat bat1;
 	private Bat bat2;
-	private static Rectangle rectangle = new Rectangle(20, 20, 50, 300);
 	static boolean pause = true;
 	static boolean singleplayer = true;
 	static boolean leftP1 = false;
