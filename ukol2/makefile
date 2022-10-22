@@ -1,5 +1,5 @@
 PROG = ukol2
-CC = g++ -std=c++11
+CC = g++ -std=c++17
 
 include common.mk
 

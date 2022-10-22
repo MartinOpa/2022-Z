@@ -16,6 +16,7 @@ int main() {
 
     cout << "metoda pro výpočet hodnoty polynomu v bodě x0: ";
     cout << P->hornerMethod(5) << endl;
+    
 
     vector<double> B = {-3, 1, 0, -1, 0, 0, 4};
     Polynomial *Q = new Polynomial(B);
@@ -25,6 +26,10 @@ int main() {
 
     cout << "metoda pro součet dvou polynomů: ";
     R->printPolynomial();
+
+    delete P;
+    delete Q;
+    delete R;
 
     return 0;
 }

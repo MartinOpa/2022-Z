@@ -4,9 +4,9 @@ SEARCHPATH += src
 vpath %.cpp $(SEARCHPATH)
 vpath %.h $(SEARCHPATH)
 
-DEPS += main.h
+DEPS += main.h polynomial.h
 
-_OBJS += main.o
+_OBJS += main.o polynomial.o
 
 OBJS = $(patsubst %,$(OUT)/%,$(_OBJS))
 
