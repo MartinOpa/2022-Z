@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Splat
+ *
+ */
+module test {
+}
