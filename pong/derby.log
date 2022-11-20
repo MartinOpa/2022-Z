@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sun Nov 20 20:31:10 CET 2022D001 : [0] The Apache Software Foundation - Apache Derby - 10.16.1.1 - (1901046), [1] a816c00e-0184-9685-eb76-00000747a7c8, [2] /Users/Splat/Desktop/pong/scoreDB, [3] jdk.internal.loader.ClassLoaders$AppClassLoader@66d33a, [4] file:/Users/Splat/.m2/repository/org/apache/derby/derby/10.16.1.1/derby-10.16.1.1.jar
+java.vendor=Eclipse Adoptium
+java.runtime.version=17.0.4.1+1
+user.dir=/Users/Splat/Desktop/pong
+os.name=Mac OS X
+os.arch=x86_64
+os.version=11.7
+derby.system.home=null
+C005 : [0] 
