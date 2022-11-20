@@ -13,3 +13,6 @@ Vítěž: Player 1
 Skóre hráče Player 1: 8, skóre hráče Player 2: 2
 Vítěž: Player 1
 
+Skóre hráče Player 1: 4, skóre hráče Player 2: 6
+Vítěž: Player 2
+
