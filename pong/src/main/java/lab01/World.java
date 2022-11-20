@@ -83,5 +83,9 @@ public class World extends App {
 	public void setHeight(double height) {
 		this.height = height;
 	}
+	
+	public Ball getBall() {
+	    return ball;
+	}
 
 }

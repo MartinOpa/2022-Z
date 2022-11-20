@@ -77,7 +77,6 @@ public class Ball extends Rectangle2D {
 			Score.incrementP1();
 		    if (Score.scoreP1 + Score.scoreP2 >= gameEnd) {
 		        game = gameScore.new gameOver(Score.scoreP1, Score.scoreP2, Score.playerName1, Score.playerName2);
-		        game.writeResult();
 		        World.pause = !World.pause;
 		    }
 			position = new Point2D(rand(400, 800), rand(100, 600));
@@ -97,7 +96,6 @@ public class Ball extends Rectangle2D {
 			Score.incrementP2();
 			if (Score.scoreP1 + Score.scoreP2 >= gameEnd) {
                 game = gameScore.new gameOver(Score.scoreP1, Score.scoreP2, Score.playerName1, Score.playerName2);
-                game.writeResult();
                 World.pause = !World.pause;
             }
 			position = new Point2D(rand(400, 800), rand(100, 600));

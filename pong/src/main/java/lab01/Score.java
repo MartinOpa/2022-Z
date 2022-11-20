@@ -15,19 +15,48 @@ public class Score {
 	static int scoreP2;
 	static String playerName1 = "Player 1";
 	static String playerName2 = "Player 2";
+	private int Score1;
+    private int Score2;
+    private String Name1 = "Player 1";
+    private String Name2 = "Player 2";
+    private String MatchRes = "Remíza";
 	private double width;
 	private double height;
 	static gameOver game;
 	private int gameEnd = 10;
-
+	
 	public Score() {
 		this.scoreP1 = 0;
 		this.scoreP2 = 0;
 	}
+	
+	public Score(int sp1, int sp2, String pn1, String pn2, String MatchRes) {
+        this.Score1 = sp1;
+        this.Score2 = sp2;
+        this.Name1 = pn1;
+        this.Name2 = pn2;
+        if (sp1 > sp2) {
+            this.MatchRes = "Vítěz: "+pn1;
+        }
+        if (sp1 < sp2) {
+            this.MatchRes = "Vítěz: "+pn2;
+        }
+        if (sp1 == sp2) {
+            this.MatchRes = "Remíza";
+        }
+    }
+	
 	public Score(double width, double height) {
 		this.width = width;
 		this.height = height;
 	}
+	
+	public Score(int sp1, String pn1, int sp2, String pn2) {
+        this.scoreP1 = sp1;
+        this.playerName1 = pn1;
+        this.scoreP2 = sp2;
+        this.playerName2 = pn2;
+    }
 	
 	public void draw(Canvas canvas) {
 		GraphicsContext gc = canvas.getGraphicsContext2D();
@@ -72,7 +101,43 @@ public class Score {
 		playerName2 = input;
 	}
 	
-	class gameOver {
+    public int getScoreP1() {
+        return this.scoreP1;
+    }
+    
+    public String getNameP1() {
+        return this.playerName1;
+    }
+    
+    public int getScoreP2() {
+        return this.scoreP2;
+    }
+    
+    public String getNameP2() {
+        return this.playerName2;
+    }
+    
+    public int getScore1() {
+        return this.Score1;
+    }
+    
+    public String getName1() {
+        return this.Name1;
+    }
+    
+    public int getScore2() {
+        return this.Score2;
+    }
+    
+    public String getName2() {
+        return this.Name2;
+    }
+    
+    public String getMatchRes() {
+        return this.MatchRes;
+    }
+    
+	public class gameOver {
         boolean over;
         int P1;
         int P2;
@@ -85,29 +150,6 @@ public class Score {
            this.P1Name = P1Name;
            this.P2Name = P2Name;
         }
-        
-        public void writeResult() {
-        String Winner = "";
-        if (this.P1 > this.P2) {
-            Winner = this.P1Name;
-        } else {
-            Winner = this.P2Name;
-        }
-        String text = "Skóre hráče "+this.P1Name+": "+this.P1+", skóre hráče "+this.P2Name+": "+this.P2+"\n";
-        if (this.P1 == this.P2) {
-            text = text+"Remíza\n\n";
-        } else text = text+"Vítěž: "+Winner+"\n\n";
-        
-        byte data[] = text.getBytes();
-        Path p = Paths.get("./hiscores.txt");
-        
-        try (OutputStream out = new BufferedOutputStream(
-                Files.newOutputStream(p, CREATE, APPEND))) {
-                out.write(data, 0, data.length);
-                out.close();
-              } catch (IOException x) {
-                System.err.println(x);
-              }
-        }
+
 	}
 }
