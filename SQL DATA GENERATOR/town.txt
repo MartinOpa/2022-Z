@@ -1,0 +1,213 @@
+
+700 30, Ostrava
+702 00, Ostrava
+703 00, Ostrava
+708 00, Ostrava
+709 00, Ostrava
+710 00, Ostrava
+711 00, Ostrava
+712 00, Ostrava
+713 00, Ostrava
+715 00, Ostrava
+716 00, Ostrava
+717 00, Ostrava
+718 00, Ostrava
+719 00, Ostrava
+720 00, Ostrava
+721 00, Ostrava
+722 00, Ostrava
+723 00, Ostrava
+724 00, Ostrava
+725 25, Ostrava
+725 26, Ostrava
+725 27, Ostrava
+725 28, Ostrava
+725 29, Ostrava
+733 01, Karviná
+734 01, Karviná
+735 03, Karviná
+735 06, Karviná
+735 11, Orlová
+735 14, Orlová
+735 31, Bohumín
+735 32, Rychvald
+735 33, Doubrava
+735 34, Stonava
+735 35, Horní Suchá
+735 41, Petřvald
+735 42, Těrlicko
+735 43, Albrechtice
+735 51, Bohumín
+735 52, Bohumín
+735 53, Dolní Lutyně
+735 61, Chotěbuz
+735 62, Český Těšín
+735 64, Havířov
+735 71, Dětmarovice
+735 72, Petrovice u Karviné
+735 81, Bohumín
+736 01, Havířov
+737 01, Český Těšín
+738 01, Frýdek-Místek
+739 01, Baška
+739 04, Morávka
+739 11, Frýdlant nad Ostravicí
+739 12, Čeladná
+739 13, Kunčice pod Ondřejníkem
+739 14, Ostravice
+739 15, Bílá
+739 21, Paskov
+739 23, Stará Ves nad Ondřejnicí
+739 24, Krmelín
+739 25, Sviadnov
+739 32, Vratimov
+739 34, Šenov
+739 36, Sedliště
+739 37, Horní Bludovice
+739 38, Dolní Domaslavice
+739 39, Lučina
+739 41, Palkovice
+739 43, Staříč
+739 44, Brušperk
+739 45, Fryčovice
+739 46, Hukvaldy
+739 47, Kozlovice
+739 49, Metylovice
+739 51, Dobrá
+739 53, Hnojník
+739 55, Smilovice
+739 59, Střítež
+739 61, Třinec
+739 81, Milíkov
+739 84, Písek
+739 85, Bukovec
+739 91, Jablunkov
+739 92, Návsí
+739 94, Vendryně
+739 95, Bystřice
+739 97, Hrádek
+739 98, Mosty u Jablunkova
+741 01, Nový Jičín
+742 01, Suchdol nad Odrou
+742 13, Studénka
+742 21, Kopřivnice
+742 31, Starý Jičín
+742 33, Jeseník nad Odrou
+742 35, Odry
+742 36, Odry
+742 37, Spálov
+742 42, Šenov u Nového Jičína
+742 43, Pustějov
+742 45, Fulnek
+742 47, Hladké Životice
+742 51, Mošnov
+742 53, Kunín
+742 54, Bartošovice
+742 55, Albrechtičky
+742 56, Sedlnice
+742 57, Libhošť
+742 58, Příbor
+742 60, Petřvald
+742 65, Rybí
+742 66, Štramberk
+742 67, Ženklava
+742 71, Hodslavice
+742 72, Mořkov
+742 73, Veřovice
+742 74, Tichá
+742 75, Lichnov
+742 81, Bravantice
+742 82, Jistebník
+742 83, Klimkovice
+742 85, Vřesina
+742 91, Velké Albrechtice
+742 92, Bílovec
+742 93, Slatina
+743 01, Bílovec
+744 01, Frenštát pod Radhoštěm
+746 01, Opava
+747 05, Opava
+747 06, Opava
+747 07, Opava
+747 11, Kozmice
+747 14, Ludgeřovice
+747 15, Šilheřovice
+747 16, Hať u Hlučína
+747 17, Darkovice
+747 18, Píšť
+747 19, Bohuslavice
+747 20, Vřesina
+747 21, Kravaře
+747 22, Dolní Benešov
+747 23, Bolatice
+747 24, Chuchelná
+747 25, Sudice
+747 27, Kobeřice
+747 28, Štěpánkovice
+747 31, Velké Hoštice
+747 33, Oldřišov
+747 35, Hněvošice
+747 41, Hradec nad Moravicí
+747 43, Větřkovice
+747 44, Březová
+747 45, Skřipov
+747 47, Vítkov
+747 51, Stěbořice
+747 52, Hlavnice
+747 53, Jakartovice
+747 54, Mladecko
+747 55, Jakartovice
+747 56, Dolní Životice
+747 57, Slavkov
+747 61, Raduň
+747 62, Mokré Lazce
+747 63, Hrabyně
+747 64, Velká Polom
+747 66, Dolní Lhota
+747 67, Hrabyně
+747 68, Kyjovice
+747 69, Pustá Polom
+747 70, Opava
+747 71, Brumovice
+747 73, Opava
+747 74, Holasovice
+747 75, Velké Heraltice
+747 81, Otice
+747 82, Štáblovice
+747 84, Melč
+747 86, Kružberk
+747 87, Budišov nad Budišovkou
+747 91, Štítina
+747 92, Háj ve Slezsku
+747 94, Děhylov
+747 95, Opava
+748 01, Hlučín
+749 01, Vítkov
+792 01, Bruntál
+793 02, Lomnice
+793 03, Dětřichov nad Bystřicí
+793 12, Horní Benešov
+793 15, Lichnov
+793 16, Zátor
+793 23, Karlovice
+793 24, Karlova Studánka
+793 26, Vrbno pod Pradědem
+793 31, Světlá Hora
+793 36, Malá Morávka
+793 42, Rýmařov
+793 44, Horní Město
+793 51, Břidličná
+793 56, Ryžoviště
+793 68, Dvorce
+793 71, Holčovice
+793 74, Heřmanovice
+793 82, Třemešná
+793 83, Jindřichov
+793 84, Janov
+793 91, Úvalno
+793 93, Brantice
+793 95, Město Albrechtice
+793 97, Slezské Rudoltice
+793 99, Osoblaha
+794 01, Krnov
+795 01, Rýmařov
