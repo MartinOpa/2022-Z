@@ -1,0 +1,3 @@
+0|admin admin
+1|martin martin
+2|franta franta
