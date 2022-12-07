@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
     cout << "Celková výška věže: " << height << "\n";
 
     /// @param tower 
-    /// @return výtisk výsledné věže na standardní výstup a sečtení výšky věže
+    /// @return výtisk výsledné věže na standardní výstup
     cout << "Výsledná věž:\n";
     for (int i = 0; i < tower.size(); i++) {
         tower[i].Report();
