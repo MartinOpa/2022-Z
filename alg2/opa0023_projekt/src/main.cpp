@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     tower = buildTower(cubes);
     int height = 0;
 
-    /// @param cubes 
+    /// @param tower 
     /// @return sečtení výšky věže a výtisk této hodnoty
     for (int i = 0; i < tower.size(); i++) {
         height += tower[i].getC();
@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 
     cout << "Celková výška věže: " << height << "\n";
 
-    /// @param cubes 
+    /// @param tower 
     /// @return výtisk výsledné věže na standardní výstup a sečtení výšky věže
     cout << "Výsledná věž:\n";
     for (int i = 0; i < tower.size(); i++) {
