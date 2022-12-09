@@ -1,7 +1,7 @@
 #include "main.h"
 
 int main(int argc, char *argv[]) {
-    /// @brief vstupní parametry funkce main
+    /// @brief vstupní parametry funkce main, spuštění programu při kompilaci pomocí makefile -> ./cube <1/2>
     /// @param argv vstupní argument při spuštění
     /// @return vybere soubor SetOfBlocks<argv>
     string number = argv[1];
@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
 
     /// @param tower 
     /// @return sečtení výšky věže a výtisk této hodnoty
-    for (int i = 0; i < tower.size(); i++) {
+    for (size_t i = 0; i < tower.size(); i++) {
         height += tower[i].getC();
     }
 
@@ -30,7 +30,7 @@ int main(int argc, char *argv[]) {
     /// @param tower 
     /// @return výtisk výsledné věže na standardní výstup
     cout << "Výsledná věž:\n";
-    for (int i = 0; i < tower.size(); i++) {
+    for (size_t i = 0; i < tower.size(); i++) {
         tower[i].Report();
     }
 

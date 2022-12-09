@@ -35,7 +35,7 @@ vector< Cube > buildTower(vector< Cube > cubesInput) {
     /// @param cubesInput setřízený vektor všech kostek
     /// @param tower vektor na začátku obsahující největší kostku
     /// @return výsledný vektor tower hledaných kostek pro nejvyšší věž
-    for (int i = 1; i < cubesInput.size(); i++) {
+    for (size_t i = 1; i < cubesInput.size(); i++) {
     if (tower.back().CanBePlacedOnTop(cubesInput[i])) {
             tower.push_back(cubesInput[i]);
         }
