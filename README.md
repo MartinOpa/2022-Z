@@ -7,7 +7,7 @@ alg2 - soubor úloh vedoucích ke splnění podmínek předmětu ALG2 na VŠB-TU
 
 haskell - soubor vybraných úloh vedoucích ke splnění podmínek předmětu FPR na VŠB-TUO FEI v třetím semestru
 
-java_2022_opa0023 - projekt vedoucí ke splnění podmínek předmětu Java1 na VŠB-TUO FEI v třetím semestru
+java_2022_opa0023 - projekt vedoucí ke splnění podmínek předmětu Java1 na VŠB-TUO FEI v třetím semestru, "horší", nerefaktorovaná verze projektu do VIS, který má vlastní repozitář
 
 pong - kopie hry pong sloužící pro naučení se práce s javafx
 
