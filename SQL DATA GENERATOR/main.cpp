@@ -363,27 +363,3 @@ int main() {
 file.close();
 
 }
-
-/*
-INSERT INTO [user] VALUES (1, 'opa0023', 'Martin', 'Opálka', 735058601, 'Úvoz 1417/11, Český Těšín, 73701',
-                             'martin.op@icloud.com', 0, '4.1.1999')
-
-INSERT INTO [vehicle] VALUES ('SHHEP23903U101257', 1, '8T28436', 'Honda', 'Civic', 2003, 'EP2')
-
-INSERT INTO [reservationtimes] VALUES ('12.10.2022 8:30', 4)
-
-if ((select capacity from reservationtimes where datetime = '12.10.2022 8:30') > 0)
-BEGIN
-    INSERT INTO [reservation] VALUES (1, '12.10.2022 8:30', 1, 'SHHEP23903U101257', 'Výměna oleje v převodovce', null, null,
-                                  'martin.op@icloud.com', 2.5, 4580, 0, 1)
-    UPDATE [reservationtimes]
-    SET capacity = capacity-1
-    WHERE datetime = '12.10.2022 8:30'
-END
-
-INSERT INTO [review] VALUES (1, 1, 'Klement', sysdatetime(), null, 4, 'bylo OK')
-
-INSERT INTO [reply] VALUES ('THX', sysdatetime(), 1)
-
-INSERT INTO [complaint] VALUES (1, 'NEBYLO OK!!!', 0, sysdatetime())
-*/
