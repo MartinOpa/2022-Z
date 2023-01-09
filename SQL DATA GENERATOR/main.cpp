@@ -177,7 +177,7 @@ int main() {
 
     file << "SET DATEFORMAT DMY\n";
     //tabulka user pro vedoucího
-    file << "INSERT INTO [user] VALUES (0, 'opa0023', 'Martin', 'Opálka', 735058601, 'Úvoz 1417/11, Český Těšín, 73701', 'martin.op@servis.com', 0, '4.1.1999')\n";
+    file << "INSERT INTO [user] VALUES (0, 'opa0023', 'Martin', 'Opálka', 735058601, 'Adresní 9382/84, Český Těšín, 73701', 'martin.op@servis.com', 0, '4.1.1999')\n";
     file << "INSERT INTO [vehicle] VALUES ('SHHEP23903U101257', 0, '8T28436', 'Honda', 'Civic', 2003, 'EP2')\n";
     //tabulka user a vehicle pro zaměstnance
     for (int i = 1; i < 12; i++) {
